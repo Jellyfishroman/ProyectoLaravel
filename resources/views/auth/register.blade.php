@@ -16,5 +16,6 @@
         <input type="password" name="password_confirmation" placeholder="Repetir contraseña">
         <input type="submit" value="Registrarse">
     </form>
+    <p>¿tienes una cuenta? <a href="/login">inicia sesión</a></p>
 </body>
 </html>

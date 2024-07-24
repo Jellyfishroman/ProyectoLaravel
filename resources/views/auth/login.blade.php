@@ -8,9 +8,11 @@
 </head>
 <body>
     <form action="/login" method="POST">
+        @csrf
         <input type="text" name="username" placeholder="nombre de usuario o correo">
-        <input type="text" name="password" placeholder="contraseña">
+        <input type="password" name="password" placeholder="contraseña">
         <input type="submit" value="iniciar sesion">
     </form>
+    <p>¿no tienes una cuenta? <a href="/register">registrate</a></p>
 </body>
 </html>
