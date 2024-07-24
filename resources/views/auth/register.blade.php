@@ -9,6 +9,8 @@
         <div class="card p-4 shadow-sm">
             <h2 class="text-center mb-4">Crear Cuenta</h2>
             <form action="/register" method="POST">
+                @csrf
+                @include('layouts.partials.messages')
                 <div class="mb-3">
                     <label for="fullName" class="form-label">Nombre Completo</label>
                     <input type="text" class="form-control" id="fullName" name="name" required>
